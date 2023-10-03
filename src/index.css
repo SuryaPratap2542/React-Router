@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bgcolor{
+    background: rgb(98, 80, 254);
+}
+.textcolor{
+    color: rgb(98, 80, 254);
+    ;
+}
+.leet{
+    width: 50%;
+    margin-left: 230px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
 }
