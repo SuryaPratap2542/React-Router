@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# React Router DOM Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application built using React and React Router DOM to manage different pages and display data from external APIs. The project includes pages for About, Contact, Leetcode Statistics, and Github Profile.
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
+### Main Page
+<img width="956" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/c91572af-7684-4db2-a1fc-d84458fb6747">
+<img width="943" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/32f9eb5f-7d20-40cf-b986-38b3383fcdbf">
 
-### `npm start`
+### About Page
+<img width="943" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/86daf089-d7b9-4684-8a61-17c240b1747a">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Contact Page
+<img width="941" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/b5772b45-cc72-4140-8e44-9ad709a687bb">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Leetcode Statistics Page
+<img width="947" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/e45721b3-2585-4af9-ae96-3416d9daea53">
 
-### `npm test`
+### Github Profile Page
+<img width="945" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/e9e7528b-99f9-41ad-8161-c31d40dd53e6">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About
 
-### `npm run build`
+This project uses React Router DOM for page navigation and integrates data from external APIs. Here are the details for the different sections of the application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Main Page**: This is the landing page of the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **About Page**: Provides information about the project or team.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Contact Page**: A contact form or details.
 
-### `npm run eject`
+- **Leetcode Statistics Page**: Fetches Leetcode statistics for a user from the Leetcode API. The Leetcode API URL is [https://leetcode-stats-api.herokuapp.com/suryapratap2542](https://leetcode-stats-api.herokuapp.com/suryapratap2542).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Github Profile Page**: Displays Github profile information, including followers, repositories, and programming language statistics. The Github API URL is [https://api.github.com/users/USERNAME](https://api.github.com/users/USERNAME).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone this repository to your local machine.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/your-username/react-router-dom-project.git
+```
 
-## Learn More
+2. Navigate to the project directory.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd react-router-dom-project
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install the required dependencies.
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Start the development server.
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000).
 
-### Making a Progressive Web App
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+- Other dependencies as needed
 
-### Advanced Configuration
+## API URLs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Leetcode API**: [https://leetcode-stats-api.herokuapp.com/suryapratap2542](https://leetcode-stats-api.herokuapp.com/suryapratap2542)
+Replace `USERNAME` with the Leetcode username for which you want to fetch statistics.
 
-### Deployment
+- **Github API**: [https://api.github.com/users/USERNAME](https://api.github.com/users/USERNAME)
+Replace `USERNAME` with the Github username for which you want to fetch profile information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request to this repository.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
