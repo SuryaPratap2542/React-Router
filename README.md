@@ -6,7 +6,7 @@ This is a web application built using React and React Router DOM to manage diffe
 
 ### Main Page
 <img width="956" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/c91572af-7684-4db2-a1fc-d84458fb6747">
-<img width="943" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/32f9eb5f-7d20-40cf-b986-38b3383fcdbf">
+<img width="956" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/511ba630-6da9-4c6a-a91d-9a99d213373a">
 
 ### About Page
 <img width="943" alt="image" src="https://github.com/SuryaPratap2542/React-Router/assets/89827931/86daf089-d7b9-4684-8a61-17c240b1747a">
